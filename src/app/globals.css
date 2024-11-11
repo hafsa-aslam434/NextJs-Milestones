@@ -1,0 +1,12 @@
+body {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: 0%;
+}
+
+*{
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: rgb(45, 136, 136);
+}
