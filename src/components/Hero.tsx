@@ -13,7 +13,7 @@ const Hero = () => {
          <div className="hero-text">
          <div className="hero-main">
              <p data-aos="zoom-in-up">Hi !</p>
-             <p data-aos="zoom-in-up">I'm Hafsa</p>
+             <p data-aos="zoom-in-up">I &apos; m Hafsa</p>
              <p data-aos="zoom-in-up">Aslam</p>
            </div>
          </div>

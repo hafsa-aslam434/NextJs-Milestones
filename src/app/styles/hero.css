@@ -32,7 +32,8 @@
 
 
 /* Responsive adjustments */
-@media (max-width: 1024px) {
+
+ @media (max-width: 1024px) {
     .hero-container {
         background-size: 50%;
         background-position: center;
@@ -49,6 +50,114 @@
 }
 
 @media (min-width:1024px) {
+    .hero-content {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .hidden.lg{
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        background-size: 40%;
+        background-position: center;
+        
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: right;
+        margin-left: 95px;
+        
+    }
+    
+    .hero-text{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width:768px) {
+    .hero-content {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .hidden.lg{
+       display: block;
+     }
+}
+
+@media (max-width: 425px) {
+    .hero-container {
+        background-size: 50%;
+        background-position: center;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: end;
+    }
+    
+    .hero-text{
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width:425px) {
+    .hero-content {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .hidden.lg{
+        display: block;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-container {
+        background-size: 50%;
+        background-position: center;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+    
+    .hero-text{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:375px) {
+    .hero-content {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .hidden.lg{
+        display: block;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero-container {
+        background-size: 50%;
+        background-position: center;
+        
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+    
+    .hero-text{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:320px) {
     .hero-content {
         grid-template-columns: repeat(2,1fr);
     }
